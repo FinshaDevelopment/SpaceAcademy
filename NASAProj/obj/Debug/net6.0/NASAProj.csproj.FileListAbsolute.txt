@@ -1,0 +1,7 @@
+C:\Users\temur\source\repos\NASAProj\NASAProj\obj\Debug\net6.0\NASAProj.csproj.AssemblyReference.cache
+C:\Users\temur\source\repos\NASAProj\NASAProj\obj\Debug\net6.0\NASAProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\temur\source\repos\NASAProj\NASAProj\obj\Debug\net6.0\NASAProj.AssemblyInfoInputs.cache
+C:\Users\temur\source\repos\NASAProj\NASAProj\obj\Debug\net6.0\NASAProj.AssemblyInfo.cs
+C:\Users\temur\source\repos\NASAProj\NASAProj\obj\Debug\net6.0\NASAProj.csproj.CoreCompileInputs.cache
+C:\Users\temur\source\repos\NASAProj\NASAProj\obj\Debug\net6.0\NASAProj.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\temur\source\repos\NASAProj\NASAProj\obj\Debug\net6.0\NASAProj.MvcApplicationPartsAssemblyInfo.cache

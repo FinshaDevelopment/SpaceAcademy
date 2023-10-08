@@ -1,0 +1,11 @@
+C:\Users\temur\source\repos\NASAProj\NASAProj.Domain\bin\Debug\net6.0\NASAProj.Domain.deps.json
+C:\Users\temur\source\repos\NASAProj\NASAProj.Domain\bin\Debug\net6.0\NASAProj.Domain.dll
+C:\Users\temur\source\repos\NASAProj\NASAProj.Domain\bin\Debug\net6.0\NASAProj.Domain.pdb
+C:\Users\temur\source\repos\NASAProj\NASAProj.Domain\obj\Debug\net6.0\NASAProj.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\temur\source\repos\NASAProj\NASAProj.Domain\obj\Debug\net6.0\NASAProj.Domain.AssemblyInfoInputs.cache
+C:\Users\temur\source\repos\NASAProj\NASAProj.Domain\obj\Debug\net6.0\NASAProj.Domain.AssemblyInfo.cs
+C:\Users\temur\source\repos\NASAProj\NASAProj.Domain\obj\Debug\net6.0\NASAProj.Domain.csproj.CoreCompileInputs.cache
+C:\Users\temur\source\repos\NASAProj\NASAProj.Domain\obj\Debug\net6.0\NASAProj.Domain.dll
+C:\Users\temur\source\repos\NASAProj\NASAProj.Domain\obj\Debug\net6.0\refint\NASAProj.Domain.dll
+C:\Users\temur\source\repos\NASAProj\NASAProj.Domain\obj\Debug\net6.0\NASAProj.Domain.pdb
+C:\Users\temur\source\repos\NASAProj\NASAProj.Domain\obj\Debug\net6.0\ref\NASAProj.Domain.dll

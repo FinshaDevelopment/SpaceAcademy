@@ -1,0 +1,15 @@
+C:\Users\temur\source\repos\NASAProj\NASAProj.Data\bin\Debug\net6.0\NASAProj.Data.deps.json
+C:\Users\temur\source\repos\NASAProj\NASAProj.Data\bin\Debug\net6.0\NASAProj.Data.dll
+C:\Users\temur\source\repos\NASAProj\NASAProj.Data\bin\Debug\net6.0\NASAProj.Data.pdb
+C:\Users\temur\source\repos\NASAProj\NASAProj.Data\bin\Debug\net6.0\NASAProj.Domain.dll
+C:\Users\temur\source\repos\NASAProj\NASAProj.Data\bin\Debug\net6.0\NASAProj.Domain.pdb
+C:\Users\temur\source\repos\NASAProj\NASAProj.Data\obj\Debug\net6.0\NASAProj.Data.csproj.AssemblyReference.cache
+C:\Users\temur\source\repos\NASAProj\NASAProj.Data\obj\Debug\net6.0\NASAProj.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\temur\source\repos\NASAProj\NASAProj.Data\obj\Debug\net6.0\NASAProj.Data.AssemblyInfoInputs.cache
+C:\Users\temur\source\repos\NASAProj\NASAProj.Data\obj\Debug\net6.0\NASAProj.Data.AssemblyInfo.cs
+C:\Users\temur\source\repos\NASAProj\NASAProj.Data\obj\Debug\net6.0\NASAProj.Data.csproj.CoreCompileInputs.cache
+C:\Users\temur\source\repos\NASAProj\NASAProj.Data\obj\Debug\net6.0\NASAProj.Data.csproj.CopyComplete
+C:\Users\temur\source\repos\NASAProj\NASAProj.Data\obj\Debug\net6.0\NASAProj.Data.dll
+C:\Users\temur\source\repos\NASAProj\NASAProj.Data\obj\Debug\net6.0\refint\NASAProj.Data.dll
+C:\Users\temur\source\repos\NASAProj\NASAProj.Data\obj\Debug\net6.0\NASAProj.Data.pdb
+C:\Users\temur\source\repos\NASAProj\NASAProj.Data\obj\Debug\net6.0\ref\NASAProj.Data.dll
