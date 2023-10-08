@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\temur\\source\\repos\\NASAProj\\NASAProj.Domain\\NASAProj.Domain.csproj": {}
+    "C:\\Users\\Muhammad\\SpaceAcademy\\NASAProj.Domain\\NASAProj.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\temur\\source\\repos\\NASAProj\\NASAProj.Domain\\NASAProj.Domain.csproj": {
+    "C:\\Users\\Muhammad\\SpaceAcademy\\NASAProj.Domain\\NASAProj.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\temur\\source\\repos\\NASAProj\\NASAProj.Domain\\NASAProj.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Muhammad\\SpaceAcademy\\NASAProj.Domain\\NASAProj.Domain.csproj",
         "projectName": "NASAProj.Domain",
-        "projectPath": "C:\\Users\\temur\\source\\repos\\NASAProj\\NASAProj.Domain\\NASAProj.Domain.csproj",
-        "packagesPath": "C:\\Users\\temur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\temur\\source\\repos\\NASAProj\\NASAProj.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Muhammad\\SpaceAcademy\\NASAProj.Domain\\NASAProj.Domain.csproj",
+        "packagesPath": "C:\\Users\\Muhammad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Muhammad\\SpaceAcademy\\NASAProj.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\temur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Muhammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -61,6 +61,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }

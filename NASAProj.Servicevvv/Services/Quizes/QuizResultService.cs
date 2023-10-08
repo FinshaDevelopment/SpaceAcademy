@@ -9,12 +9,12 @@ using NASAProj.Service.Exceptions;
 using NASAProj.Service.Extensions;
 using NASAProj.Service.Helpers;
 using System.Linq.Expressions;
-using ZaminEducation.Service.DTOs.Quizzes;
-using ZaminEducation.Service.DTOs.UserCourses;
-using ZaminEducation.Service.Interfaces;
-using ZaminEducation.Service.ViewModels.Quizzes;
+using NASAProj.Service.DTOs.Quizzes;
+using NASAProj.Service.DTOs.UserCourses;
+using NASAProj.Service.Interfaces;
+using NASAProj.Service.ViewModels.Quizzes;
 
-namespace ZaminEducation.Service.Services;
+namespace NASAProj.Service.Services;
 
 public class QuizResultService : IQuizResultService
 {
@@ -27,7 +27,7 @@ public class QuizResultService : IQuizResultService
     private QuestionAnswer questionAnswer;
     private int countOfCorrectAnswers = 0;
     private readonly IMapper _mapper;
-    private long courseId;
+    private int courseId;
 
     public QuizResultService(IGenericRepository<Quiz> quizRepository,
         IGenericRepository<QuestionAnswer> questionAnswerRepository,
@@ -48,7 +48,7 @@ public class QuizResultService : IQuizResultService
         PaginationParams @params)
     {
         var pagedList =
-            _quizResultRepository.GetAll(expression, "User, Course", false).ToPagedList(@params);
+            _quizResultRepository.GetAll(expression, "User", false).ToPagedList(@params);
 
         return await pagedList.ToListAsync();
     }
@@ -114,7 +114,7 @@ public class QuizResultService : IQuizResultService
         var quizzes = _quizRepository.GetAll(c => c.Id == courseId);
 
         if (quizzes.All(q => q.Id == quiz.Id))
-            throw new HttpStatusCodeException(400, "Quiz must belong to this course.");
+            throw new HttpStatusCodeException(400, "Quiz must beint to this course.");
 
         foreach (var UserSelectionDTO in dto)
         {
@@ -143,6 +143,6 @@ public class QuizResultService : IQuizResultService
         return results;
     }
 
-    private double GetTotalPersentage(long total, int value)
+    private double GetTotalPersentage(int total, int value)
         => Math.Round((double)value * 100 / (double)total, 2);
 }

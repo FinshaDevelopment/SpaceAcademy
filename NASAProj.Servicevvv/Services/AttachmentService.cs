@@ -3,10 +3,10 @@ using NASAProj.Domain.Models;
 using NASAProj.Service.DTOs;
 using NASAProj.Service.Exceptions;
 using System.Linq.Expressions;
-using ZaminEducation.Service.Helpers;
-using ZaminEducation.Service.Interfaces;
+using NASAProj.Service.Helpers;
+using NASAProj.Service.Interfaces;
 
-namespace ZaminEducation.Service.Services;
+namespace NASAProj.Service.Services;
 
 public class AttachmentService : IAttachmentService
 {
@@ -83,7 +83,7 @@ public class AttachmentService : IAttachmentService
         return existAttachement;
     }
 
-    public async ValueTask<Attachment> UpdateAsync(long id, Stream stream)
+    public async ValueTask<Attachment> UpdateAsync(int id, Stream stream)
     {
         var existAttachment = await _repository.GetAsync(a => a.Id == id, null);
 

@@ -1,0 +1,15 @@
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Data\bin\Release\net6.0\win-x64\NASAProj.Data.deps.json
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Data\bin\Release\net6.0\win-x64\NASAProj.Data.dll
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Data\bin\Release\net6.0\win-x64\NASAProj.Data.pdb
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Data\bin\Release\net6.0\win-x64\NASAProj.Domain.dll
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Data\bin\Release\net6.0\win-x64\NASAProj.Domain.pdb
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Data\obj\Release\net6.0\win-x64\NASAProj.Data.csproj.AssemblyReference.cache
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Data\obj\Release\net6.0\win-x64\NASAProj.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Data\obj\Release\net6.0\win-x64\NASAProj.Data.AssemblyInfoInputs.cache
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Data\obj\Release\net6.0\win-x64\NASAProj.Data.AssemblyInfo.cs
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Data\obj\Release\net6.0\win-x64\NASAProj.Data.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Data\obj\Release\net6.0\win-x64\NASAProj.Data.csproj.CopyComplete
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Data\obj\Release\net6.0\win-x64\NASAProj.Data.dll
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Data\obj\Release\net6.0\win-x64\refint\NASAProj.Data.dll
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Data\obj\Release\net6.0\win-x64\NASAProj.Data.pdb
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Data\obj\Release\net6.0\win-x64\ref\NASAProj.Data.dll

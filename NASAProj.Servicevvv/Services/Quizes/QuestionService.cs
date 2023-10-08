@@ -6,10 +6,10 @@ using NASAProj.Domain.Entities.Quizzes;
 using NASAProj.Service.Exceptions;
 using NASAProj.Service.Extensions;
 using System.Linq.Expressions;
-using ZaminEducation.Service.DTOs.Quizzes;
-using ZaminEducation.Service.Interfaces;
+using NASAProj.Service.DTOs.Quizzes;
+using NASAProj.Service.Interfaces;
 
-namespace ZaminEducation.Service.Services
+namespace NASAProj.Service.Services
 {
     public class QuestionService : IQuestionService
     {
@@ -44,13 +44,13 @@ namespace ZaminEducation.Service.Services
 
         public async ValueTask<IEnumerable<Question>> GetAllAsync(PaginationParams @params, Expression<Func<Question, bool>> expression = null)
         {
-            var questions = questionRepository.GetAll(expression: expression, isTracking: false, includes: "Answers, Assets");
+            var questions = questionRepository.GetAll(expression: expression, isTracking: false, includes: "Answers");
             return await questions.ToPagedList(@params).ToListAsync();
         }
 
         public async ValueTask<Question> GetAsync(Expression<Func<Question, bool>> expression)
         {
-            var question = await questionRepository.GetAsync(expression, "Answers, Attachments");
+            var question = await questionRepository.GetAsync(expression, "Answers");
             if (question is null)
                 throw new HttpStatusCodeException(404, "Question Not Found");
 

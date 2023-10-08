@@ -1,0 +1,11 @@
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Domain\bin\Release\net6.0\win-x64\NASAProj.Domain.deps.json
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Domain\bin\Release\net6.0\win-x64\NASAProj.Domain.dll
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Domain\bin\Release\net6.0\win-x64\NASAProj.Domain.pdb
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Domain\obj\Release\net6.0\win-x64\NASAProj.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Domain\obj\Release\net6.0\win-x64\NASAProj.Domain.AssemblyInfoInputs.cache
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Domain\obj\Release\net6.0\win-x64\NASAProj.Domain.AssemblyInfo.cs
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Domain\obj\Release\net6.0\win-x64\NASAProj.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Domain\obj\Release\net6.0\win-x64\NASAProj.Domain.dll
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Domain\obj\Release\net6.0\win-x64\refint\NASAProj.Domain.dll
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Domain\obj\Release\net6.0\win-x64\NASAProj.Domain.pdb
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Domain\obj\Release\net6.0\win-x64\ref\NASAProj.Domain.dll

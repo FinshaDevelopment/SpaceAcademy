@@ -10,11 +10,8 @@ using NASAProj.Service.Extensions;
 using NASAProj.Service.Helpers;
 using NASAProj.Service.Interfaces;
 using System.Linq.Expressions;
-using ZaminEducation.Service.DTOs.Users;
-using ZaminEducation.Service.Extensions;
-using ZaminEducation.Service.Interfaces;
 
-namespace ZaminEducation.Service.Services
+namespace NASAProj.Service.Services
 {
     public class UserService : IUserService
     {
@@ -65,7 +62,7 @@ namespace ZaminEducation.Service.Services
 
         public async ValueTask<IEnumerable<User>> GetAllAsync(PaginationParams @params, Expression<Func<User, bool>> expression = null, string search = null)
         {
-            var users = userRepository.GetAll(expression, "Address, Image", isTracking: false);
+            var users = userRepository.GetAll(expression, "Image", isTracking: false);
 
             return !string.IsNullOrEmpty(search)
                 ? users.Where(u => u.FirstName == search ||
@@ -84,7 +81,7 @@ namespace ZaminEducation.Service.Services
             return user;
         }
 
-        public async ValueTask<User> UpdateAsync(long id, UserForUpdateDTO dto)
+        public async ValueTask<User> UpdateAsync(int id, UserForUpdateDTO dto)
         {
             var user = await userRepository.GetAsync(u => u.Id == id);
 
@@ -108,9 +105,9 @@ namespace ZaminEducation.Service.Services
         }
 
         public async ValueTask<User> GetInfoAsync()
-            => await userRepository.GetAsync(u => u.Id == HttpContextHelper.UserId, includes: "Image,Address");
+            => await userRepository.GetAsync(u => u.Id == HttpContextHelper.UserId, includes: "Image");
 
-        public async ValueTask<User> AddAttachmentAsync(long userId, AttachmentForCreationDTO attachmentForCreationDto)
+        public async ValueTask<User> AddAttachmentAsync(int userId, AttachmentForCreationDTO attachmentForCreationDto)
         {
             var attachment = await attachmentService.UploadAsync(attachmentForCreationDto);
 

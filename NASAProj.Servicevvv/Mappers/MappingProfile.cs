@@ -2,7 +2,7 @@
 using NASAProj.Domain.Entities.Quizzes;
 using NASAProj.Domain.Models;
 using NASAProj.Service.DTOs.Users;
-using ZaminEducation.Service.DTOs.Quizzes;
+using NASAProj.Service.DTOs.Quizzes;
 
 namespace NASAProj.Service.Mappers
 {

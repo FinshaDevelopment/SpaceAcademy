@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ZaminEducation.Service.DTOs.Users
+namespace NASAProj.Service.DTOs.Users
 {
     public class UserForChangePasswordDTO
     {

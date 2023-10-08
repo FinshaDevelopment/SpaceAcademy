@@ -1,7 +1,7 @@
 ﻿using NASAProj.Service.DTOs;
 using Newtonsoft.Json;
 
-namespace ZaminEducation.Service.Helpers;
+namespace NASAProj.Service.Helpers;
 
 public class FileHelper
 {

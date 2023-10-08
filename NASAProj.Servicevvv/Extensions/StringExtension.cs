@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace ZaminEducation.Service.Extensions
+namespace NASAProj.Service.Extensions
 {
     public static class StringExtension
     {

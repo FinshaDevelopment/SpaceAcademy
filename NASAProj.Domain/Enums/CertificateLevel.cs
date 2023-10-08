@@ -1,4 +1,4 @@
-﻿namespace ZaminEducation.Domain.Enums
+﻿namespace NASAProj.Domain.Enums
 {
     public enum CertificateLevel
     {

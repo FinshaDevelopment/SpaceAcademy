@@ -10,11 +10,10 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Drawing.Text;
 using System.Linq.Expressions;
-using ZaminEducation.Domain.Enums;
-using ZaminEducation.Service.Helpers;
-using ZaminEducation.Service.Interfaces;
+using NASAProj.Domain.Enums;
+using NASAProj.Service.Interfaces;
 
-namespace ZaminEducation.Service.Services
+namespace NASAProj.Service.Services
 {
 #pragma warning disable
     public class CertificateService : ICertificateService

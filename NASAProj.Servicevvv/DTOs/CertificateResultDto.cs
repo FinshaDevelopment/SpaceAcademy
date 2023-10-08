@@ -1,4 +1,4 @@
-﻿namespace ZaminEducation.Service.DTOs.UserCourses
+﻿namespace NASAProj.Service.DTOs.UserCourses
 {
     public class CertificateResultDTO
     {

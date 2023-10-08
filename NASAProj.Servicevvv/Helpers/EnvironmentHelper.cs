@@ -1,4 +1,4 @@
-﻿namespace ZaminEducation.Service.Helpers;
+﻿namespace NASAProj.Service.Helpers;
 
 public class EnvironmentHelper
 {
@@ -10,6 +10,6 @@ public class EnvironmentHelper
     public static string ResourcesPath => "resources";
     public static string MainPagePath => Path.Combine(WebRootPath, ResourcesPath, "mainpage.json");
     public static string HomePagesInfoConnectinString =>
-        @"C:\Users\Muhammadamin\Source\Repos\ZaminEducation.Server\src\ZaminEducation.Api\wwwroot\ZCApplicantInfo.json";
+        @"C:\Users\Muhammadamin\Source\Repos\NASAProj.Server\src\NASAProj.Api\wwwroot\ZCApplicantInfo.json";
 
 }

@@ -1,4 +1,4 @@
-﻿namespace ZaminEducation.Service.Interfaces
+﻿namespace NASAProj.Service.Interfaces
 {
     public interface IAuthService
     {

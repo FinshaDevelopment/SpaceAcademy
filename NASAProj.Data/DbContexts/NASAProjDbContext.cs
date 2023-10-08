@@ -14,12 +14,7 @@ namespace NASAProj.Data.DbContexts
         public virtual DbSet<Question> Questions { get; set; }
         public virtual DbSet<QuestionAnswer> QuestionAnswers { get; set; }
         public virtual DbSet<Attachment> Attachments { get; set; }
-        public virtual DbSet<Documentation> Documentations { get; set; }
         public virtual DbSet<QuizResult> QuizResults { get; set; }
         public virtual DbSet<Quiz> Quizzes { get; set; }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-        }
     }
 }

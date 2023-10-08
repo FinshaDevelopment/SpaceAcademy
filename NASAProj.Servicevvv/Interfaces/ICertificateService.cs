@@ -3,7 +3,7 @@ using NASAProj.Domain.Models;
 using NASAProj.Service.DTOs;
 using System.Linq.Expressions;
 
-namespace ZaminEducation.Service.Interfaces
+namespace NASAProj.Service.Interfaces
 {
     public interface ICertificateService
     {

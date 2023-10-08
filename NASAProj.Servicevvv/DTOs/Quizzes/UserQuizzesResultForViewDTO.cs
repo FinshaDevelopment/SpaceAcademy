@@ -1,7 +1,7 @@
 
-using ZaminEducation.Service.DTOs.Quizzes;
+using NASAProj.Service.DTOs.Quizzes;
 
-namespace ZaminEducation.Service.ViewModels.Quizzes;
+namespace NASAProj.Service.ViewModels.Quizzes;
 
 public class UserQuizzesResultForViewDTO
 {

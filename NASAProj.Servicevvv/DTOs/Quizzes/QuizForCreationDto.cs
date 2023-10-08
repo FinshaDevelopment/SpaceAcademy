@@ -1,4 +1,4 @@
-﻿namespace ZaminEducation.Service.DTOs.Quizzes
+﻿namespace NASAProj.Service.DTOs.Quizzes
 {
     public class QuizForCreationDTO
     {

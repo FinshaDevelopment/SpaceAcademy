@@ -5,11 +5,11 @@ using NASAProj.Service.Exceptions;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using ZaminEducation.Service.Extensions;
-using ZaminEducation.Service.Interfaces;
+using NASAProj.Service.Extensions;
+using NASAProj.Service.Interfaces;
 using IConfiguration = Microsoft.Extensions.Configuration.IConfiguration;
 
-namespace ZaminEducation.Service.Services
+namespace NASAProj.Service.Services
 {
     public class AuthService : IAuthService
     {

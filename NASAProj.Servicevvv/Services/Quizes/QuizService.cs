@@ -4,10 +4,10 @@ using NASAProj.Data.IRepositories;
 using NASAProj.Domain.Entities.Quizzes;
 using NASAProj.Service.Exceptions;
 using System.Linq.Expressions;
-using ZaminEducation.Service.DTOs.Quizzes;
-using ZaminEducation.Service.Interfaces;
+using NASAProj.Service.DTOs.Quizzes;
+using NASAProj.Service.Interfaces;
 
-namespace ZaminEducation.Service.Services
+namespace NASAProj.Service.Services
 {
     public class QuizService : IQuizService
     {
@@ -59,7 +59,7 @@ namespace ZaminEducation.Service.Services
             return await quizRepository.GetAll(expression, isTracking: false).ToListAsync();
         }
 
-        public async ValueTask<Quiz> GetAsync(long quizId)
+        public async ValueTask<Quiz> GetAsync(int quizId)
         {
             var quiz = await quizRepository.GetAsync(q => q.Id == quizId, "Questions");
 
@@ -70,7 +70,7 @@ namespace ZaminEducation.Service.Services
         }
 
         public async ValueTask<Quiz> UpdateAsync(
-            long quizId,
+            int quizId,
             QuizForCreationDTO quizForCreationDto)
         {
             var quizexists =
@@ -90,7 +90,7 @@ namespace ZaminEducation.Service.Services
         }
 
         public async ValueTask<QuestionAnswer> UpdateAnswerAsync(
-            long answerId,
+            int answerId,
             QuestionAnswerForCreationDTO answerForCreationDto)
         {
             var quizContent = await questionRepository.GetAsync(qc => qc.Id.Equals(answerForCreationDto.QuestionId));

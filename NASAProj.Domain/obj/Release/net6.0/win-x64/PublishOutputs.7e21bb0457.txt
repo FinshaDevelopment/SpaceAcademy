@@ -1,0 +1,3 @@
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Domain\bin\Release\net6.0\win-x64\publish\NASAProj.Domain.dll
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Domain\bin\Release\net6.0\win-x64\publish\NASAProj.Domain.deps.json
+C:\Users\Muhammad\SpaceAcademy\NASAProj.Domain\bin\Release\net6.0\win-x64\publish\NASAProj.Domain.pdb

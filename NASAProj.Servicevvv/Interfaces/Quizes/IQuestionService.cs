@@ -1,9 +1,9 @@
 ﻿using NASAProj.Domain.Configurations;
 using NASAProj.Domain.Entities.Quizzes;
 using System.Linq.Expressions;
-using ZaminEducation.Service.DTOs.Quizzes;
+using NASAProj.Service.DTOs.Quizzes;
 
-namespace ZaminEducation.Service.Interfaces
+namespace NASAProj.Service.Interfaces
 {
     public interface IQuestionService
     {
